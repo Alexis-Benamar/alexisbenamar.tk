@@ -34,3 +34,5 @@ Planned:
 ```bash
 :(){:|:&};:
 ```
+
+Copyright © 2017, [Alexis Benamar](http://alexisbenamar.tk).
