@@ -14,7 +14,7 @@ _The Happy Subaru Gif._
 > ~Coluche, 2020
 
 Planned:
-* using php
+* adding a backend to have a _"real"_ website
 * adding portofolio page
 * adding CV page
 * contact page with contact form
