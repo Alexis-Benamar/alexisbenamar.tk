@@ -1,48 +1,23 @@
-@font-face {
-    font-family: gotham;
-    src: url('../font/GothamRoundedBook_21018.ttf');
+
+.brand-logo {
+    font-weight: 300;
 }
 
-body {
-    background-color: black;
-}
 
-img {
+
+.profile-pic {
+    max-height: 250px;
     display: block;
     margin: 0 auto;
-    margin-top: 30vh;
-    margin-bottom: 3vh;
+    margin-top: -150px;
+    border-radius: 125px;
+    border: 5px solid white;
 }
 
-p, a {
-    font-family: gotham;
-    font-weight: bold;
-    color: white;
-    font-size: 1em;
-    text-align: center;
-}
-.happy-sub {
-    margin: 0 0 10vh;
+ul > li > a {
+    font-size: 1.2em;
 }
 
-a {
-    width: 100%;
-    text-decoration: none;
-    margin: 0 auto;
-    display: block;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-
-/* -------------------------------- MOBILE CSS -------------------------------*/
-@media screen and (max-width: 1152px) {
-    p, a {
-        font-size: 2em;
-    }
-
-    img {
-        width: 60vw;
-    }
+.about-me {
+    text-indent: 4em;
 }

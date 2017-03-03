@@ -1,0 +1,58 @@
+
+body {
+    background: url("../img/BUILDING.jpg") no-repeat center center fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+}
+
+.nav-wrapper {
+    padding: 0 10vw;
+}
+
+.under-construction {
+    margin-top: 20vh;
+}
+
+blockquote {
+    border-left: 5px solid white;
+}
+.tiny-text {
+    font-size: 0.5em;
+    margin-left: 10px;
+}
+
+.subaru-gif {
+    display: block;
+    margin: 3vh auto 2vh auto;
+}
+.subaru-quote {
+    font-weight: light;
+    font-style: italic;
+    text-align: center;
+}
+
+hr {
+    width: 25vw;
+    margin: 5vh auto;
+    border-top: 1px solid white;
+}
+
+/* LINKS */
+
+ul#links {
+    display: flex;
+    justify-content: center;
+}
+ul#links > li {
+    padding: 0 20px;
+}
+ul#links > li > a {
+    /*font-size: 2em;*/
+    letter-spacing: 8px;
+    font-weight: 500;
+    font-style: italic;
+}
+ul#links > li > a:hover {
+    transition: 5s;
+    text-decoration: underline;
+}
