@@ -50,13 +50,13 @@ ul#links {
 ul#links > li {
     padding: 0 20px;
 }
-ul#links > li > a {
+.link {
     /*font-size: 2em;*/
+    width: 100%;
     letter-spacing: 8px;
     font-weight: 500;
     font-style: italic;
 }
-ul#links > li > a:hover {
-    transition: 5s;
+.link:hover {
     text-decoration: underline;
 }
