@@ -1,6 +1,6 @@
 # alexisbenamar.tk
 Personnal website.
-Currently containing only one gif, the best of all:
+Current state: _In construction_
 
 _The Happy Subaru Gif._
 
