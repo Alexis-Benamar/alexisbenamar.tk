@@ -16,6 +16,7 @@ Planned:
 * contact page with contact form
 * soundcloud page:  displays every tracks i posted, with date sort.
 * konami code support
+* use home-made renders to illustrate the website
 
 
 
