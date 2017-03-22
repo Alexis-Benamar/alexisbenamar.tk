@@ -5,20 +5,79 @@ html {
 body {
     background: url("../img/BUILDING.jpg") no-repeat center center fixed;
     background-color: rgba(255, 255, 255, 0.5);
-    min-height:100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     background-size: cover;
 }
+
+main {
+    min-height: 100%;
+    flex: 1 0 auto;
+}
+
+
+
+
+
+/* ================================= NAVBAR ================================= */
 
 .nav-wrapper {
     padding: 0 10vw;
 }
 
-.under-construction {
+/* =================== */
+
+
+
+
+
+/* ================================= HEADER ================================= */
+
+.site-header {
+    height: 60vh;
+}
+
+/* HEADLINES */
+#headlines {
     margin-top: 20vh;
+}
+#headlines h1 {
+    font-weight: 300;
+}
+#headlines h5 {
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* LEARN MORE BUTTON*/
+.learn-more-button {
+    margin-top: 20vh;
+	padding-bottom: 3px;
+}
+.learn-more-button a {
+    text-align: center;
+    color: white;
+}
+.learn-more-button a .material-icons {
+    transition: .2s ease-out;
+}
+.learn-more-button a:hover .material-icons {
+    margin-top: 10px;
+}
+
+/* =================== */
+
+
+
+
+
+.under-construction {
+    margin-top: 5vh;
 }
 
 blockquote {
-    border-left: 5px solid white;
+    border-left: 3px solid #444;
 }
 .tiny-text {
     font-size: 0.5em;

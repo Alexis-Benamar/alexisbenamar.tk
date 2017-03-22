@@ -3,53 +3,419 @@
     <head>
         <meta charset="utf-8">
         <title>Alexis Benamar</title>
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="css/materialize.min.css">
-        <link rel="stylesheet" href="css/style-building.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!-- NAVBAR -->
-        <div class="navbar-fixed" id="top">
-            <nav class="grey darken-4">
-                <div class="nav-wrapper">
-                    <a href="#top" class="brand-logo">alexisbenamar.tk</a>
+        <header>
+            <div class="navbar-fixed" id="top">
+                <nav class="grey darken-4">
+                    <div class="nav-wrapper">
+                        <a href="#top" class="brand-logo menu-link">alexisbenamar.tk</a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse" id="menu-collapse"><i class="material-icons" id="menu-button">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a class="menu-link" href="#about-me" id="#about-me-button">About me</a></li>
+                            <li><a class="menu-link" href="#skills" id="#skills-button">Skills</a></li>
+                            <li><a class="menu-link" href="#links" id="#links-button">Links</a></li>
+                            <li><a class="menu-link" href="#contact" id="#contact-button">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <ul class="side-nav grey darken-4 white-text" id="mobile-demo">
+                <div class="container">
+                    <hr class="menu-hr">
                 </div>
-            </nav>
-        </div>
+                <li><a class="menu-link" href="#top">Home</a></li>
+                <li><a class="menu-link" href="#about-me">About me</a></li>
+                <li><a class="menu-link" href="#skills">Skills</a></li>
+                <li><a class="menu-link" href="#links">Links</a></li>
+                <li><a class="menu-link" href="#contact">Contact</a></li>
+                <div class="container">
+                    <hr>
+                </div>
+            </ul>
+        </header>
 
-        <div class="section grey darken-4 under-construction">
-            <div class="row container">
-                <div class="col m12 l7">
-                    <h3 class="header white-text">Hi. I'm Alexis Benamar.</h3>
-                    <p class="flow-text white-text">
-                        I'm currently upgrading this website into what my friends and I like to call:
-                        <blockquote class="flow-text grey darken-4 white-text">
-                            <i>La transition web 3.0 <span class="tiny-text">(which can translates to using Materialize)</span></i>
-                        </blockquote>
-                    </p>
-                </div>
-                <div class="col m12 l4 offset-l1 subaru-col">
-                    <img src="img/happy.gif" class="subaru-gif" alt="happy subaru gif">
-                    <p class="white-text subaru-quote">May this happy subaru gif enlighten your day</p>
+        <main>
+            <div class="section site-header">
+                <div class="container">
+                    <div class="white-text flow-text hide-text" id="headlines">
+                        <h1>Hi. I'm Alexis Benamar.</h1>
+                        <h5>Developping useless therefore necessary features since 1997.</h3>
+                        <div class="learn-more-button center-align">
+                            <a class="menu-link" href="#about-me" id="learn-more">
+                                Learn more <br>
+                                <i class="material-icons small">keyboard_arrow_down</i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-
-            <div class="row container">
-                <p class="flow-text white-text center-align">
-                    Here's some useful links in the meantime:
-                </p>
-                <div class="col m12 l4">
-                    <a target="_blank" href="http://github.com/Alexis-Benamar" class="flow-text white-text btn-flat center-align link">GITHUB</a>
-                </div>
-                <div class="col m12 l4">
-                    <a target="_blank" href="https://soundcloud.com/kmrd-cacti" class="flow-text white-text btn-flat center-align link">SOUNDCLOUD</a>
-                </div>
-                <div class="col m12 l4">
-                    <a target="_blank" href="https://www.linkedin.com/in/alexisbenamar" class="flow-text white-text btn-flat center-align link">LINKEDIN</a>
+            <div class="section white about-me" id="about-me">
+                <div class="container">
+                    <div class="row">
+                        <div class="col hide-on-med-and-down l4">
+                            <img src="img/pp-2.jpg" class="profile-pic" alt="me">
+                        </div>
+                        <div class="col m12 l8">
+                            <h3 class="header">About me</h3>
+                            <div id="about-me-text" class="hide-text">
+                                <p class="flow-text">
+                                    I'm a french 20-years-old student in the Exia.Cesi IT engineering school
+                                    based in Rouen, France. <br>
+                                    I decided to create this website in order to share my work to
+                                    the rest of the world.
+                                </p>
+                                <p class="flow-text">
+                                    Although it's currently a landing page, it was in deep need for an upgrade.
+                                    I've planned to add more content very soon, like my projects !
+                                    <br> And also a back-end. <i>(this will get handy)</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <div class="section grey darken-4 white-text skills" id="skills">
+                <div class="container">
+                    <h3 class="header">Skills</h3>
+
+                    <!-- WEB -->
+                    <h5 class=" flow-text skill-section-label"><u>WEB</u></h5>
+                    <div class="row skill-section-container">
+                        <div class="col m12 l6 skill-section" style="margin: 40px 0;">
+                            <!-- HTML -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">HTML</p>
+                                </div>
+                                <div class="col s8">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+
+                            <!-- CSS -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">CSS</p>
+                                </div>
+                                <div class="col s8">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+
+                            <!-- JavaScript -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">JavaScript</p>
+                                </div>
+                                <div class="col s7">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+
+                            <!-- TypeScript -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">TypeScript</p>
+                                </div>
+                                <div class="col s7">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+
+                            <!-- PHP -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">PHP</p>
+                                </div>
+                                <div class="col s4">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col m12 l6 skill-section" style="margin: 40px 0;">
+                            <!-- jQuery -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">jQuery</p>
+                                </div>
+                                <div class="col s8">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+
+                            <!-- Ionic -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">Ionic</p>
+                                </div>
+                                <div class="col s7">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+
+                            <!-- Materialize -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">Materialize</p>
+                                </div>
+                                <div class="col s6">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+
+                            <!-- Bootstrap -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">Bootstrap</p>
+                                </div>
+                                <div class="col s6">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+
+                            <!-- Rest API -->
+                            <div class="row">
+                                <div class="col s4">
+                                    <p class="flow-text skill-label right">Rest API</p>
+                                </div>
+                                <div class="col s4">
+                                    <div class="skill-rating"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="show-more">
+                        <!-- SOFTWARE -->
+                        <h5 class=" flow-text skill-section-label"><u>SOFTWARE</u></h5>
+                        <div class="row skill-section-container">
+                            <div class="col m12 l6 skill-section" style="margin: 40px 0;">
+                                <!-- Python -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">Python</p>
+                                    </div>
+                                    <div class="col s6">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Lua -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">Lua</p>
+                                    </div>
+                                    <div class="col s6">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Java -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">Java</p>
+                                    </div>
+                                    <div class="col s5">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+
+                                <!-- C -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">C</p>
+                                    </div>
+                                    <div class="col s4">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+
+                                <!-- C# -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">C#</p>
+                                    </div>
+                                    <div class="col s2">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col m12 l6 skill-section" style="margin: 40px 0;">
+                                <!-- LOVE2D -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">LÖVE2D</p>
+                                    </div>
+                                    <div class="col s6">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+
+                                <!-- LWJGL -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">LWJGL</p>
+                                    </div>
+                                    <div class="col s2">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- DATABASES -->
+                        <h5 class=" flow-text skill-section-label"><u>DATABASES</u></h5>
+                        <div class="row skill-section-container">
+                            <div class="col m12 l6 skill-section" style="margin: 40px 0;">
+                                <!-- MySQL -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">MySQL</p>
+                                    </div>
+                                    <div class="col s6">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col m12 l6 skill-section hide-on-med-and-down" style="margin: 40px 0;">
+
+                            </div>
+                        </div>
+
+
+
+                        <!-- 3D -->
+                        <h5 class=" flow-text skill-section-label"><u>3D</u></h5>
+                        <div class="row skill-section-container">
+                            <div class="col m12 l6 skill-section" style="margin: 40px 0;">
+                                <!-- 3D Modeling-->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">Modeling</p>
+                                    </div>
+                                    <div class="col s6">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Blender -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">Blender</p>
+                                    </div>
+                                    <div class="col s6">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Cinema 4D -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">Cinema 4D</p>
+                                    </div>
+                                    <div class="col s4">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col m12 l6 skill-section" style="margin: 40px 0;">
+                                <!-- WebGL -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">WebGL</p>
+                                    </div>
+                                    <div class="col s4">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Three.JS -->
+                                <div class="row">
+                                    <div class="col s4">
+                                        <p class="flow-text skill-label right">Three.JS</p>
+                                    </div>
+                                    <div class="col s5">
+                                        <div class="skill-rating"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-more-button center-align flow-text">
+                        <button class="btn-flat" id="show-more-btn">
+                            Show more <br>
+                            <i id="show-more-icon" class="material-icons">keyboard_arrow_down</i>
+                        </b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section white links" id="links">
+                <div class="row container image-links">
+                    <h3 class="header">Some useful links</h3>
+                    <div class="col m12 l6 link-colonne">
+                        <a target="_blank" href="http://github.com/Alexis-Benamar">
+                            <img class="link-img" src="img/github-logo.png" alt="github logo">
+                        </a>
+                    </div>
+                    <div class="col m12 l6 link-colonne">
+                        <a target="_blank" href="https://www.linkedin.com/in/alexisbenamar">
+                            <img class="link-img" src="img/linkedin-logo.png" alt="linkedin logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section grey darken-4 contact white-text flow-text" id="contact">
+                <div class="row container">
+                    <h3>Contact</h3>
+                    <div class="col m12 l6">
+                        <p class="flow-text">
+                            Do not hesitate to send me an email.
+                        </p>
+                        <p class="contact-link">
+                            Email: <a class="text-link" href="mailto:alexis.benamar@viacesi.fr">alexis.benamar@viacesi.fr</a>
+                        </p>
+                        <p class="contact-link">
+                            Phone: <a class="text-link" href="tel:alexis.benamar@viacesi.fr">06 30 36 64 35</a>
+                        </p>
+                    </div>
+                    <div class="col m12 l6">
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.5728078948987!2d1.120952015694899!3d49.43588987934828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e0de98cdaf75eb%3A0xe084a4147a94669b!2s6+Cit%C3%A9+Morin%2C+76000+Rouen!5e0!3m2!1sfr!2sfr!4v1490200581729" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="page-footer grey darken-4">
+            <div class="footer-copyright">
+                <div class="container">
+                    <p class="footer-text">© 2017 Alexis Benamar</p>
+                </div>
+            </div>
+        </footer>
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
