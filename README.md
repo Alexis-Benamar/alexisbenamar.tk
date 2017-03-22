@@ -1,6 +1,6 @@
 # alexisbenamar.tk
 Personnal website.
-Currently containing only one gif, the best of all:
+Current state: _In construction_
 
 _The Happy Subaru Gif._
 
@@ -16,6 +16,7 @@ Planned:
 * contact page with contact form
 * soundcloud page:  displays every tracks i posted, with date sort.
 * konami code support
+* use home-made renders to illustrate the website
 
 
 
