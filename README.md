@@ -1,3 +1,5 @@
+/!\ DEPRECIATED /!\
+
 # alexisbenamar.tk
 Personnal website.
 Current state: _In construction_
